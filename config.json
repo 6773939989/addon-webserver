@@ -1,19 +1,21 @@
 {
   "name": "Sweetplace",
-  "version": "latest",
-  "slug": "Bridge addon",
-  "description": "App and bridge tools to integrate with external data and services.",
+  "version": "1.17.5",
+  "slug": "core_ws",
+  "description": "Core & Services",
   "startup": "application",
   "image": "swtplc2021/webserver",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
+  "ingress": true,
+  "ingress_port": 80,
   "boot": "auto",
   "map": [
     "config:rw"
   ],
   "ports": {
-	"80/tcp": 9696
+    "80/tcp": 9696
   },
   "ports_description": {
-	"80/tcp": "Web interface http"
+    "80/tcp": "Web interface http"
   }
 }
