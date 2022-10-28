@@ -2,7 +2,7 @@
   "name": "Sweetplace",
   "version": "latest",
   "slug": "Bridge addon",
-  "description": "Sweetplace bridge tools to integrate with external apps and services.",
+  "description": "App and bridge tools to integrate with external data and services.",
   "startup": "application",
   "image": "swtplc2021/webserver",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
