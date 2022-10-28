@@ -1,8 +1,8 @@
 {
-  "name": "SWPL_WS_TEST",
+  "name": "SWPL - Services",
   "version": "latest",
-  "slug": "test",
-  "description": "Test addon ws",
+  "slug": "Bridge addon",
+  "description": "Sweetplace bridge tools to integrate with external apps and services.",
   "startup": "application",
   "image": "swtplc2021/webserver",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
