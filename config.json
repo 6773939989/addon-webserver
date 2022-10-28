@@ -2,7 +2,7 @@
   "name": "Sweetplace",
   "version": "1.17.5",
   "slug": "sweetplace",
-  "description": "Core & Services to integrate Sweetplace with external data and services.",
+  "description": "Core & Services to integrate Sweetplace with external data and services",
   "startup": "application",
   "image": "swtplc2021/webserver",
   "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
